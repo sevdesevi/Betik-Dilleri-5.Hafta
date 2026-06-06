@@ -48,7 +48,7 @@ for bina in kampus:
     for kat in bina:
         print('------------------kat-----------------',sayac)
 
-        for sinif in kat:   #BURAK ŞAHİN TARAFINDAN KODLANDI
+        for sinif in kat: 
 
             print('------sınıf-----------------',sayac)
             for masa in sinif:
