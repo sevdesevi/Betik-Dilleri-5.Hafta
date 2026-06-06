@@ -9,7 +9,7 @@ print(r)
 #print(soup)
 print(type(soup))
 try:
-    f= open('arsiv.txt','x',encoding='utf-8')   #BURAK ŞAHİN TARAFINDAN KODLANDI
+    f= open('arsiv.txt','x',encoding='utf-8')  
 except FileExistsError:
     os.remove("arsiv.txt")
 list2 = soup.find_all("div", {'class': 'col-lg-6'})
